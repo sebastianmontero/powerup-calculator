@@ -3,8 +3,16 @@ const {Resources} = require('@wharfkit/resources');
 
 async function main() {
   let requests = [
-    {account: 'nftmarb.beny', ms: 20, mb: 2},
-    {account: 'rex1.beny', ms: 20, mb: 3}
+    {account: 'nftmarb.beny', ms: 2000, mb: 2},
+    {account: 'yldrex1.beny', ms: 20, mb: 3},
+    {account: 'yldrex2.beny', ms: 20, mb: 3},
+    {account: 'xchg.beny', ms: 20, mb: 3},
+    {account: 'gqztoojrgqge', ms: 200, mb: 2},
+    {account: 'rng1.beny', ms: 5, kb: 100},
+    {account: 'rng2.beny', ms: 5, kb: 100},
+    {account: 'rng3.beny', ms: 5, kb: 100},
+    {account: 'rngadm.beny', ms: 5, kb: 100},
+    {account: 'dapp.beny', ms: 100, mb: 7},
   ];
   
 
